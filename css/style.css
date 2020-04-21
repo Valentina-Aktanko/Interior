@@ -89,9 +89,16 @@ input[type="radio"].visually-hidden {
 }
 
 .main-menu__link {
+  display: inline-block;
   padding: 3px 13px;
   color: #8c8c8c;
   text-transform: uppercase;
+}
+
+.main-menu__link:hover,
+.main-menu__link:focus,
+.main-menu__link:active {
+  color: #212121;
 }
 
 .main-menu__item_current .main-menu__link {
@@ -100,21 +107,13 @@ input[type="radio"].visually-hidden {
   border-bottom: 3px solid #212121;
 }
 
-.main-menu__item_search {
-  position: relative;
+.main-menu__item_search .main-menu__link {
+  padding: 0 8px;
+  margin-top: 3px;
 }
 
-.main-menu__item_search::before {
-  content: '';
-  position: absolute;
-  top: 3px;
-  left: 8px;
-  width: 23px;
-  height: 23px;
-  background-image: url('../img/search.png');
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  cursor: pointer;
+.main-menu__link:hover path {
+  fill: rgba(33, 33, 33, 0.65);
 }
 
 .theme_gray-1 {
