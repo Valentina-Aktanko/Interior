@@ -157,6 +157,7 @@ input[type="radio"].visually-hidden {
 
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   max-width: 400px;
 }
 
@@ -213,4 +214,45 @@ input[type="radio"].visually-hidden {
 
 .popular-products .text-content__description {
   margin-bottom: 27px;
+}
+
+.button {
+  position: relative;
+  /* display: inline-block; */
+  padding: 10px 30px;
+  padding-right: 55px;
+
+  font: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  /* vertical-align: middle; */
+  /* text-align: center; */
+  color: #212121;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+}
+
+.button::after {
+  content: '';
+
+  position: absolute;
+  top: 16px;
+  right: 30px;
+
+  width: 9px;
+  height: 12px;
+  background-image: url(../img/arrow.png);
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.65);
+}
+
+.button:active {
+  box-shadow: inset 0px 2px 2px 0px #323232;
 }
