@@ -112,7 +112,9 @@ input[type="radio"].visually-hidden {
   margin-top: 3px;
 }
 
-.main-menu__link:hover path {
+.main-menu__link:hover path,
+.main-menu__link:focus path,
+.main-menu__link:active path {
   fill: rgba(33, 33, 33, 0.65);
 }
 
