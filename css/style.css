@@ -279,7 +279,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-.slider .text-content__tag {
+.popular-products .text-content__tag {
   color: #43a047;
 }
 
@@ -531,4 +531,8 @@ input[type="radio"].visually-hidden {
 
 .hot-deals {
   position: relative;
+}
+
+.hot-deals .text-content__tag {
+  color: #e53935;
 }
