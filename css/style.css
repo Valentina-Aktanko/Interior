@@ -536,6 +536,10 @@ input[type="radio"].visually-hidden {
   color: #e53935;
 }
 
+.exclusive-products {
+  margin-bottom: 120px;
+}
+
 .exclusive-products .text-content {
   top: 180px;
   left: 30px;
