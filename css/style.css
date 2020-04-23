@@ -71,6 +71,8 @@ input[type="radio"].visually-hidden {
   width: 12px;
   height: 12px;
   background-image: url(../img/arrow.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .button:hover,
@@ -105,6 +107,8 @@ input[type="radio"].visually-hidden {
 .button_no-border:focus,
 .button_no-border:active {
   background-image: url(../img/arrow-hover.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .page-header {
@@ -236,7 +240,7 @@ input[type="radio"].visually-hidden {
   max-width: 400px;
 }
 
-.text-content__heading {
+.text-content__title {
   margin: 0;
   font-size: 36px;
   line-height: 1.2;
@@ -334,3 +338,125 @@ input[type="radio"].visually-hidden {
   background-color: #212121;
 }
 
+.featured-products__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.tab-controll {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tab-controll__item {
+  padding-left: 10px;
+  padding-right: 20px;
+
+  font-size: 36px;
+  line-height: 58px;
+  font-weight: 700;
+  color: #6c6c6c;
+
+  border-bottom: 1px solid #6c6c6c;
+  cursor: pointer;
+}
+
+.tab-controll__item_current {
+  color: #212121;
+  border-bottom: 3px solid #212121;
+  cursor: default;
+}
+
+.tab-content {
+  display: flex;
+  margin: 0;
+  margin-bottom: 90px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.tab-content__item {
+  position: relative;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.tab-content__item:hover .tab-content__hover-content{
+  display: flex;
+}
+
+.tab-content__item:nth-child(4n) {
+  margin-right: 0;
+}
+
+
+.tab-content__hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: none;
+}
+
+.tab-content__hover-content_show {
+  display: flex  ;
+}
+
+.hover-content {
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 240px;
+  min-height: 240px;
+
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.hover-content__title {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.hover-content__description {
+  margin: 0;
+
+  line-height: 22px;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.hover-content__button {
+  order: -1;
+  width: 48px;
+  height: 48px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.hover-content__button::after {
+  top: 15px;
+  left: 15px;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url(../img/arrow-big.svg);
+}
+
+.tab-content__img {
+  width: 270px;
+  min-height: 270px;
+  margin: 0;
+}
