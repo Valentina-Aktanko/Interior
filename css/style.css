@@ -537,7 +537,7 @@ input[type="radio"].visually-hidden {
 }
 
 .exclusive-products {
-  margin-bottom: 120px;
+  margin-bottom: 90px;
 }
 
 .exclusive-products .text-content {
@@ -547,6 +547,7 @@ input[type="radio"].visually-hidden {
 }
 
 .exclusive-products__list {
+  display: inline-block; /* борьба с выпадением нижнего margin у родителя */
   margin: 0;
   padding: 0;
   list-style: none;
@@ -555,8 +556,15 @@ input[type="radio"].visually-hidden {
 .exclusive-products__item {
   position: relative;
   float: left;
+  width: 270px;
+  min-height: 270px;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.exclusive-products__item:first-child {
+  width: 570px;
+  min-height: 570px;
 }
 
 .exclusive-products__item:nth-child(3),
@@ -565,14 +573,8 @@ input[type="radio"].visually-hidden {
 }
 
 .exclusive-products__img {
-  width: 270px;
-  height: auto;
   margin: 0;
   font-size: 0;
   line-height: 0;
-}
-
-.exclusive-products__item:first-child .exclusive-products__img {
-  width: 570px;
 }
 
