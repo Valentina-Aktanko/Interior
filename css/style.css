@@ -760,10 +760,6 @@ input[type="radio"].visually-hidden {
   color: #6c6c6c;
 }
 
-.page-footer__docs {
-  text-align: right;
-}
-
 .page-footer__social-list {
   display: flex;
   flex-wrap: wrap;
@@ -784,4 +780,16 @@ input[type="radio"].visually-hidden {
 
 .page-footer__social-link:hover svg path{
   fill: #212121;
+}
+
+.page-footer__docs {
+  text-align: right;
+}
+
+.page-footer__docs a {
+  color: #6c6c6c;
+}
+
+.page-footer__docs a:hover{
+  color: #212121;
 }
