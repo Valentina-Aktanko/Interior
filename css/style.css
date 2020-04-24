@@ -793,7 +793,7 @@ input[type="radio"].visually-hidden {
 }
 
 .page-footer__docs a:hover,
-page-footer__docs a:focus,
-page-footer__docs a:active {
+.page-footer__docs a:focus,
+.page-footer__docs a:active {
   color: #212121;
 }
