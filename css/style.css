@@ -737,11 +737,15 @@ input[type="radio"].visually-hidden {
   border: 1px solid #d9dee1;
   border-left: none;
   background-color: #ffffff;
-  background-image: url(../img/telegram.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
   cursor: pointer;
 }
+
+.subscribe-form__button:hover svg path,
+.subscribe-form__button:focus svg path,
+.subscribe-form__button:active svg path {
+  fill: #212121;
+}
+
 .page-footer__bottom {
   display: flex;
   padding-bottom: 30px;
