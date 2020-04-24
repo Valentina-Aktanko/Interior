@@ -778,7 +778,9 @@ input[type="radio"].visually-hidden {
   margin-right: 0;
 }
 
-.page-footer__social-link:hover svg path{
+.page-footer__social-link:hover svg path, 
+.page-footer__social-link:focus svg path,
+.page-footer__social-link:active svg path {
   fill: #212121;
 }
 
@@ -790,6 +792,8 @@ input[type="radio"].visually-hidden {
   color: #6c6c6c;
 }
 
-.page-footer__docs a:hover{
+.page-footer__docs a:hover,
+page-footer__docs a:focus,
+page-footer__docs a:active {
   color: #212121;
 }
