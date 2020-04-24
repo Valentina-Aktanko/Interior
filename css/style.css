@@ -443,6 +443,8 @@ input[type="radio"].visually-hidden {
   height: 20px;
 
   background-image: url(../img/arrow-big.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .tab-content__img {
@@ -470,7 +472,7 @@ input[type="radio"].visually-hidden {
   width: 683px;
 }
 
-.promo-products__text-content {
+.promo-products .text-content {
   top: 220px;
   left: 50px;
 }
@@ -547,7 +549,7 @@ input[type="radio"].visually-hidden {
 }
 
 .exclusive-products__list {
-  display: inline-block; /* борьба с выпадением нижнего margin у родителя */
+  display: inline-block; /* борьба с выпадением нижнего margin у родителя exclusive-products */
   margin: 0;
   padding: 0;
   list-style: none;
@@ -578,3 +580,208 @@ input[type="radio"].visually-hidden {
   line-height: 0;
 }
 
+.mobile-app {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url(../img/bg-mobile-app.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.mobile-app .text-content {
+  position: static;
+  max-width: 600px;
+}
+
+.mobile-app .text-content__title {
+  margin-bottom: 10px;
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.mobile-app .text-content__tag {
+  color: #6c6c6c;
+}
+
+.mobile-app .text-content__description {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.mobile-app__button-wrapper {
+  display: flex;
+}
+
+.mobile-app__button {
+  display: block;
+  width: 135px;
+  height: 40px;
+  background-color: #000;
+}
+
+.mobile-app__button_appstore {
+  background-image: url(../img/bg-app-store.jpg);
+  margin-right: 10px;
+}
+
+.mobile-app__button_googleplay {
+  background-image: url(../img/bg-google-play.jpg);
+}
+
+.page-footer {
+  background-color: #f7f7f7;
+  padding-top: 115px;
+}
+
+.page-footer__top {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.page-footer__contacts {
+  padding-right: 70px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.page-footer__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #6c6c6c;
+  text-transform: uppercase;
+}
+
+.page-footer__text{
+  margin: 0;
+  margin-bottom: 22px;
+  line-height: 22px;
+}
+
+.page-footer__text:last-child {
+  margin-bottom: 0;
+}
+
+.page-footer__info {
+  padding-right: 60px;
+  width: 500px;
+  box-sizing: border-box;
+}
+
+.page-footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-footer__item {
+  width: 205px;
+}
+
+.page-footer__item:nth-child(2n+1) {
+  margin-right: 30px;
+}
+
+.page-footer__link {
+  line-height: 26px;
+  font-weight: 700;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.page-footer__link:hover,
+.page-footer__link:focus,
+.page-footer__link:active {
+  color: #6c6c6c;
+}
+
+.page-footer__subscribe {
+  width: 370px;
+}
+
+.page-footer__subscribe .page-footer__text {
+  margin-bottom: 22px;
+}
+
+.subscribe-form__item {
+  position: relative;
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.subscribe-form__input {
+  width: 322px;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  
+  font: inherit;
+  line-height: 22px;
+  background-color: #ffffff;
+  border: 1px solid #d9dee1;
+  border-right: none;
+}
+
+.subscribe-form__button {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+
+  border: 1px solid #d9dee1;
+  border-left: none;
+  background-color: #ffffff;
+  background-image: url(../img/telegram.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.page-footer__bottom {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.page-footer__copyright,
+.page-footer__docs {
+  width: 420px;
+  margin: 0;
+
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  color: #6c6c6c;
+}
+
+.page-footer__docs {
+  text-align: right;
+}
+
+.page-footer__social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 330px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-footer__social-item {
+  margin-right: 6px;
+}
+
+.page-footer__social-item:last-child {
+  margin-right: 0;
+}
+
+.page-footer__social-link:hover svg path{
+  fill: #212121;
+}
