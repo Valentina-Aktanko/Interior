@@ -188,19 +188,6 @@ input[type="radio"].visually-hidden {
   fill: rgba(33, 33, 33, 0.65);
 }
 
-.theme_gray-1 {
-  background-color: #f0f0f0;
-}
-
-.theme_gray-2 {
-  background-color: #eaeaea;
-}
-
-.theme_gray-3 {
-  background-color: #e6e6e6;
-  background-image: linear-gradient(to right, #e6e6e6, #dddddd);
-}
-
 .popular-products {
   margin-bottom: 110px;
 }
