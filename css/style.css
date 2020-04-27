@@ -701,6 +701,73 @@ input[type="radio"].visually-hidden {
   fill: #6c6c6c;
 }
 
+.contacts {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts__item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 48px 40px;
+  width: 370px;
+  min-height: 370px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #9c9c9c;
+}
+
+.contacts__link {
+  margin-bottom: 27px;
+}
+
+.contacts__link:hover path {
+  fill: #6c6c6c;
+}
+
+.contacts__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.contacts__title {
+  margin: 0;
+  margin-bottom: 5px;
+
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacts__details {
+  margin: 7px 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.contacts__details_address {
+  margin: 5px 0;
+  font-weight: 300;
+  color: #6c6c6c;
+}
+
+.contacts__type {
+  font-weight: 700;
+  color: #6c6c6c;
+}
+
+
+
 .page-footer {
   background-color: #f7f7f7;
   padding-top: 115px;
@@ -804,11 +871,19 @@ input[type="radio"].visually-hidden {
   width: 48px;
   height: 48px;
   box-sizing: border-box;
-
+  
   border: 1px solid #d9dee1;
   border-left: none;
   background-color: #ffffff;
   cursor: pointer;
+}
+
+.subscribe-form__input:hover,
+.subscribe-form__input:hover ~ .subscribe-form__button,
+.subscribe-form__input:focus,
+.subscribe-form__input:focus ~ .subscribe-form__button {
+  outline: none;
+  border-color: #b3b7b9;
 }
 
 .subscribe-form__button:hover svg path,

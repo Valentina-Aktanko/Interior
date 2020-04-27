@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products</title>
+  <title>Contacts</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="inner-page">
+<body>
   <header class="page-header">
     <div class="container padding-site">
       <a class="page-header__logo">
@@ -19,8 +19,8 @@
           <li class="main-menu__item">
             <a class="main-menu__link" href="index.html">Home</a>
           </li>
-          <li class="main-menu__item main-menu__item_current">
-            <a class="main-menu__link">Products</a>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="catalog.html">Products</a>
           </li>
           <li class="main-menu__item">
             <a class="main-menu__link" href="#">History</a>
@@ -28,8 +28,8 @@
           <li class="main-menu__item">
             <a class="main-menu__link" href="#">Showroom</a>
           </li>
-          <li class="main-menu__item">
-            <a class="main-menu__link" href="contacts.html">Contacts</a>
+          <li class="main-menu__item main-menu__item_current">
+            <a class="main-menu__link">Contacts</a>
           </li>
           <li class="main-menu__item main-menu__item_search">
             <a class="main-menu__link" href="#">
@@ -45,146 +45,76 @@
   </header>
   <main>
     <div class="page-title-wrapper">
-      <h1 class="page-title container padding-site">Our products range</h1>
+      <h1 class="page-title container padding-site">Contact us</h1>
     </div>
-
-    <section class="catalog-products container padding-site">
-      <h2 class="visually-hidden">Рекомендуемые товары</h2>
-      <ul class="tab-controll">
-        <li class="tab-controll__item tab-controll__item_current">All</li>
-        <li class="tab-controll__item">Home</li>
-        <li class="tab-controll__item">Office</li>
-        <li class="tab-controll__item">Furniture</li>
-        <li class="tab-controll__item">Modern</li>
-        <li class="tab-controll__item">Classic</li>
-      </ul>
-      <ul class="tab-content">
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-11.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
+    
+    <section class="contacts container padding-site">
+      <h2 class="visually-hidden">Наши контакты</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <a class="contacts__link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512">
+              <path fill="#212121" d="M256 0C153.755 0 70.573 83.182 70.573 185.426c0 126.888 165.939 313.167 173.004 321.035 6.636 7.391 18.222 7.378 24.846 0 7.065-7.868 173.004-194.147 173.004-321.035C441.425 83.182 358.244 0 256 0zm0 278.719c-51.442 0-93.292-41.851-93.292-93.293S204.559 92.134 256 92.134s93.291 41.851 93.291 93.293-41.85 93.292-93.291 93.292z"/>
+            </svg>
+          </a>
+          <h3 class="contacts__title">California</h3>
+          <p class="contacts__details">
+            <span class="contacts__type">Phone:</span>
+            1900 - 1234 -5678
+          </p>
+          <p class="contacts__details">
+            <span class="contacts__type">Email:</span>
+            info@interior.com
+          </p>
+          <p class="contacts__details contacts__details_address">
+            <span class="contacts__type">Address:</span>
+            12 W 1st St, 90001 Los Angeles, California
           </p>
         </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-21.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
+        <li class="contacts__item">
+          <a class="contacts__link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512">
+              <path fill="#212121" d="M256 0C153.755 0 70.573 83.182 70.573 185.426c0 126.888 165.939 313.167 173.004 321.035 6.636 7.391 18.222 7.378 24.846 0 7.065-7.868 173.004-194.147 173.004-321.035C441.425 83.182 358.244 0 256 0zm0 278.719c-51.442 0-93.292-41.851-93.292-93.293S204.559 92.134 256 92.134s93.291 41.851 93.291 93.293-41.85 93.292-93.291 93.292z"/>
+            </svg>
+          </a>
+          <h3 class="contacts__title">California</h3>
+          <p class="contacts__details">
+            <span class="contacts__type">Phone:</span>
+            1900 - 1234 -5678
+          </p>
+          <p class="contacts__details">
+            <span class="contacts__type">Email:</span>
+            info@interior.com
+          </p>
+          <p class="contacts__details contacts__details_address">
+            <span class="contacts__type">Address:</span>
+            12 W 1st St, 90001 Los Angeles, California
           </p>
         </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-31.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
+        <li class="contacts__item">
+          <a class="contacts__link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512">
+              <path fill="#212121" d="M256 0C153.755 0 70.573 83.182 70.573 185.426c0 126.888 165.939 313.167 173.004 321.035 6.636 7.391 18.222 7.378 24.846 0 7.065-7.868 173.004-194.147 173.004-321.035C441.425 83.182 358.244 0 256 0zm0 278.719c-51.442 0-93.292-41.851-93.292-93.293S204.559 92.134 256 92.134s93.291 41.851 93.291 93.293-41.85 93.292-93.291 93.292z"/>
+            </svg>
+          </a>
+          <h3 class="contacts__title">California</h3>
+          <p class="contacts__details">
+            <span class="contacts__type">Phone:</span>
+            1900 - 1234 -5678
           </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-41.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
+          <p class="contacts__details">
+            <span class="contacts__type">Email:</span>
+            info@interior.com
           </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-5.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
-          </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-6.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
-          </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-11.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
-          </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-21.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
-          </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-31.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
-          </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-41.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
-          </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-5.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
-          </p>
-        </li>
-        <li class="tab-content__item">
-          <p class="tab-content__img">
-            <a href="#">
-              <img src="img/product-6.jpg" width="370" height="370" alt="Fishnet Chair">
-            </a>
-          </p>
-        </li>
-      </ul>
-      <button class="catalog-products__button">
-        <span class="visually-hidden">Загрузить еще</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 512 512">
-          <path fill="#212121" d="M493.815 70.629c-11.001-1.003-20.73 7.102-21.733 18.102l-2.65 29.069C424.473 47.194 346.429 0 256 0 158.719 0 72.988 55.522 30.43 138.854c-5.024 9.837-1.122 21.884 8.715 26.908 9.839 5.024 21.884 1.123 26.908-8.715C102.07 86.523 174.397 40 256 40c74.377 0 141.499 38.731 179.953 99.408l-28.517-20.367c-8.989-6.419-21.48-4.337-27.899 4.651-6.419 8.989-4.337 21.479 4.651 27.899l86.475 61.761c12.674 9.035 30.155.764 31.541-14.459l9.711-106.53c1.004-11.001-7.1-20.731-18.1-21.734zM472.855 346.238c-9.838-5.023-21.884-1.122-26.908 8.715C409.93 425.477 337.603 472 256 472c-74.377 0-141.499-38.731-179.953-99.408l28.517 20.367c8.989 6.419 21.479 4.337 27.899-4.651 6.419-8.989 4.337-21.479-4.651-27.899l-86.475-61.761c-12.519-8.944-30.141-.921-31.541 14.459L.085 419.637c-1.003 11 7.102 20.73 18.101 21.733 11.014 1.001 20.731-7.112 21.733-18.102l2.65-29.069C87.527 464.806 165.571 512 256 512c97.281 0 183.012-55.522 225.57-138.854 5.024-9.837 1.122-21.884-8.715-26.908z"/>
-        </svg>
-      </button>
-    </section>
-
-    <section class="promo-products container">
-      <h2 class="visually-hidden">Промо-товары</h2>
-      <ul class="promo-products__list">
-        <li class="promo_products__item">
-          <div class="text-content">
-            <h3 class="text-content__title">Fishnet Chair</h3>
-            <p class="text-content__tag">Trending</p>
-            <p class="text-content__description">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt
-              <!-- powder-coated black or highly polished chrome. -->
-            </p>
-              <a class="button" href="#">Order Us</a>
-          </div>
-          <p class="promo_products__img">
-            <img src="img/promo-img1.jpg" width="683" height="683" alt="Fishnet Chair">
-          </p>
-        </li>
-        <li class="promo_products__item">
-          <div class="text-content">
-            <h3 class="text-content__title">Fishnet Chair</h3>
-            <p class="text-content__tag">Trending</p>
-            <p class="text-content__description">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt
-              <!-- powder-coated black or highly polished chrome. -->
-            </p>
-              <a class="button" href="#">Order Us</a>
-          </div>
-          <p class="promo_products__img">
-            <img src="img/promo-img2.jpg" width="683" height="683" alt="Fishnet Chair">
+          <p class="contacts__details contacts__details_address">
+            <span class="contacts__type">Address:</span>
+            12 W 1st St, 90001 Los Angeles, California
           </p>
         </li>
       </ul>
     </section>
   </main>
-  
+
   <footer class="page-footer">
     <div class="page-footer__wrapper container padding-site">
       <div class="page-footer__top">
@@ -262,5 +192,6 @@
       </div>
     </div>
   </footer>
+  
 </body>
 </html>
