@@ -539,6 +539,7 @@ input[type="radio"].visually-hidden {
 }
 
 .trending-products__title {
+  margin: 0;
   font-size: 36px;
   line-height: 58px;
   font-weight: 700;
@@ -835,6 +836,9 @@ input[type="radio"].visually-hidden {
 
 .product-details {
   display: flex;
+  min-width: 765px;
+  margin-bottom: 120px;
+  padding-bottom: 36px;
 }
 
 .product-details .slider {
